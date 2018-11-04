@@ -1,0 +1,22 @@
+<meta
+charset="UTF-8"> 
+<html>
+	<head>
+		<h3>PRIMEIRO SITE </h3>
+	</head>
+	<body>
+		<strong> Testes com letras em Negrito </Strong>
+		<br />
+		<br />
+		<br />
+		usamos <strong> A e /A </strong>para usar um Link
+		<br />
+		<a href="https://www.youtube.com/"> Youtube </a>
+
+	<script>
+		alert("Primeiro teste com o alert usando script");
+		alert("Hoje é 04/11/2018");
+	</script>
+	
+	</body>
+</html>
