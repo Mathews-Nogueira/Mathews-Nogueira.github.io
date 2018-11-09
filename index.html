@@ -1,79 +1,85 @@
 <meta
 charset="UTF-8">
 <html>
-			
-	<head>
-		<h3>PRIMEIRO SITE <h3/>
-	</head>
-	<body>
-			<strong> Testes com letras em Negrito </Strong>
-			<br />
-			<br />
-			<br />
-			usamos <strong> A e /A </strong>para usar um Link
-			<br />
-			<a href="https://www.youtube.com/"> Youtube </a>
-			<br />
-			<br />
-			<br />
-			
-		<script>
+	<script>
+	
+		alert("Seja bem Vindo ao Faça seu Curriculo Online");
+		alert("Digite com Bastante Atenção!");
 		
 		
-			var ano =2018;
-			var nome = prompt("Ola! Qual é o sua Idade?");
-			var eu = 19;
-			var adriano = 26;
-			var paulo = 32;
-			var total = eu + adriano + paulo;
-			var media = total /3;
-			
-			var hr = function() {
+		var hr = function() {
 				document.write("<hr>");	
 			};
 						
-			var br = function() {
-				document.write("<br>");	
+		var br = function() {
+				document.write("<br>");				
 			};
 			
-			alert("Primeiro teste com o alert usando script");
-			alert("Hoje é 04/11/2018")
 			
-			
-			document.write("olá mundo <br />");
-			hr();
-			document.write("<strong>Testes de soma</strong>")
-			hr();
-			document.write("Minha idade é:  ");
-			document.write(10 + 9);
-			hr();
-			document.write("Eu nasci em: ");
-			document.write(2018 - 19);
-			hr();
-			document.write("a media de nossas idades é: ");			
-			document.write((25 + 12 + 23) / 3);
-			hr();
-			
-			document.write("<Eu nasci em : " + (ano - 19) + "<br>");
-			document.write("Adriano nasceu em : " + (ano - 26) + "<br>");
-			document.write("Paulo nasceu em : " + (ano - 32) + "<br>");
-					
-			document.write("A soma das idades é: " + total);
-			hr();
-			document.write("A media das idades é: ");
-			document.write (Math.round(media));
-			br();
-			hr();
-			
-			
-			
-			
-			console.log("esta mensagem aparece apenas no log");
-			
-			
-			
+			alert("Preencher o Cabeçalho (0/13)!");
 		
+		//Primeira Parte 	
+		var nome = prompt("Digite seu Nome Completo (1/13)");
+		var pais = prompt("Digite a sua Nacionalidade (2/13) ");
+		var idade = prompt("Digite sua Idade (3/13)");
+		var casado = prompt("Digite seu Estado civil (4/13)");
+		br();
+		br();
+		br();
+		br();
+
+		//Segunda Parte
+		var rua = prompt("Digite o Nome da sua Rua (5/13)");
+		var numero = prompt("Digite o numero da sua Rua (6/13)")
+		var bairro = prompt("digite o Nome do seu Bairro (7/13)")
+		var cidade = prompt("Digite o Nome da sua Cidade (8/13)");
+		var estado = prompt("Digite as Inicias do nome do seu Estado (9/13)");
+		var cep = prompt("Digite o CEP da sua Rua (10/13)");
+		
+		//Terceira Parte
+		var telefone = prompt("Digite o seu  Numero de Telefone (00)0000-0000 (11/13)");
+		var email = prompt("Digite o seu email (12/13)");
+		
+		//Quarta Parte
+		var link = prompt("Cole aqui um link de sua  Rede Social (13/13)");
+		
+	
+		
+		//Primeira parte
+		document.write (""+ nome );
+		br();
+		br();
+		document.write("<strong>          .Nacionalidade:</strong>"+ pais +"        <strong>.</strong>");
+		document.write("<Strong>          Idade:</strong>" + idade + "Anos          <strong>.</strong>" );
+		document.write("<strong>          Estado Civil:</strong>:" + casado);
+		br();
+		br();
+		
+		//Segunda Parte
+		document.write("<strong>          .Rua:</strong>"+ rua +"");
+		document.write("<strong> .Nº:</strong>"+ numero +"        <strong>.</strong>");
+		document.write("<strong>          Bairro:</strong>"+ bairro +"        <strong>.</strong>");
+		document.write("<strong>          Cidade:</strong>"+ cidade +"        <strong>.</strong>");
+		document.write("<strong>          Estado:</strong>"+ estado +"        <strong>.</strong>");
+		document.write("<strong>          CEP:</strong>"+ cep +"        <strong>.</strong>");
+		br();
+		br();	
+		//Terceira Parte
+		document.write("<strong>          .Telefone:</strong>"+ telefone +"        <strong>.</strong>");
+		document.write("<strong>          Email:</strong>"+ email +"        <strong>.</strong>");
+		br();
+		br();		
+		//Quarta Parte
+		document.write("<strong>          .Rede Social:</strong>"+ link);
+		hr();
+		br();
+		br();
+		br();
+		br();
 	</script>
 	
-	</body>
+	<h3> OBJETIVO</h3>
+	
+	
+	
 </html>
